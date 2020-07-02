@@ -8,7 +8,7 @@ Proyek tim A04 untuk tugas Coding Experience Bootcamp CfDS UGM x Progate
 - [x] Bagian Main 
 - [ ] Bagian Main Tambahan
   - [x] About 
-  - [ ] Contact
+  - [x] Contact
 - [x] Footer 
 - [x] 1 Animasi 
 - [ ] Desain responsif smartphone dan tablet
