@@ -80,6 +80,7 @@ body {
 }
 
 
+
 .btn:hover {
   opacity: 1;
   background: linear-gradient(to bottom left, #58508d 0%, #bc5090 100%);
@@ -136,6 +137,7 @@ body {
 
 
 /* footer */
+
 footer img {
   width: 125px;
 }
@@ -148,3 +150,67 @@ footer p {
 footer {
   padding-top: 30px;
 }
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rebeccapurple; 
+  color: white; 
+  border: 2px solid white;
+}
+
+.button1:hover {
+  background-color: white;
+  color: white;
+  color: black;
+}
+
+
+tr {
+  text-align: left;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+.contact {
+  overflow: hidden;
+  background-color:rebeccapurple;
+  float: center;
+  width: 100%; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=text], select, textarea {
+ 
+  padding: 15px 40px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  resize: vertical;
+}
+
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+button{
+  width: 100%;
+}
+
