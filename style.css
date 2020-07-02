@@ -70,33 +70,43 @@ body {
 }
 
 .btn {
-  padding: 12px 24px;
+  padding: 18px 30px;
   color: white;
   display: inline-block;
   opacity: 0.6;
-  margin: 20px 0;
+  margin: 50px 0 20px 0;
   border-radius: 12px;
   background-color: #239b76;
 }
 
+
 .btn:hover {
   opacity: 1;
-  background-color: rebeccapurple;
+  background: linear-gradient(to bottom left, #58508d 0%, #bc5090 100%);
   transition: all 0.5s;
 }
 
 /* about */
+
+.about-wrapper {
+  padding: 100px 0 100px 0;
+}
+
 .column {
   float: left;
   width: 50%;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .right {
   text-align: right;
+  padding-left: 50px;
 }
 
 .left {
   text-align: left;
+  padding-right: 50px;
 }
 
 .row:after {
@@ -109,20 +119,16 @@ body {
   display: flex;
 }
 
-.column {
-  flex: 50%;
-}
-
 .heading h2 {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .column p {
-  width: 85%;
+  width: 90%;
   display: inline-block;
   margin-top: 10px;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 28px;
 }
 
 /* contact */
@@ -135,8 +141,8 @@ footer img {
 }
 
 footer p {
-  color: #239b76;
-  font-size: 10px;
+  color: gray;
+  font-size: 12px;
 }
 
 footer {
