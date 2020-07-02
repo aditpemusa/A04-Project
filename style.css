@@ -11,9 +11,10 @@ header {
 
 .header-right {
   padding: 10px 20px 5px 20px;
+  float: right;
 }
 .header-right a{
-  float: right;
+  float: left;
   color: rebeccapurple;
   padding: 5px 20px 5px 10px ;
   text-decoration: none;
@@ -132,7 +133,7 @@ body {
   line-height: 28px;
 }
 
-/* contact */
+
 
 
 
@@ -149,8 +150,10 @@ footer p {
 
 footer {
   padding-top: 30px;
+  padding-bottom: 5px;
 }
 
+/* contact */
 
 .button {
   background-color: #4CAF50; /* Green */
