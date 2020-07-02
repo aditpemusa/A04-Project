@@ -1,5 +1,7 @@
 # A04-Project
-Proyek tim A04 Progate x CFDS untuk membuat single landing page halaman survey.
+Proyek tim A04 untuk tugas Coding Experience Bootcamp CfDS UGM x Progate
+
+## Landing page halaman survey.
 
 6 Komponen agar dinyatakan **PASS**:
 - [x] Header 
