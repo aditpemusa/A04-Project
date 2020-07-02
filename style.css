@@ -133,7 +133,7 @@ body {
   line-height: 28px;
 }
 
-
+/* end of about */
 
 
 
@@ -151,69 +151,73 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 5px;
+  position: relative;
 }
+
+/* end of footer */
+
+
 
 /* contact */
 
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 8px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+.contact-wrapper {
+  overflow: hidden;
+  background: linear-gradient(to bottom left, #58508d 0%, #bc5090 100%);
+  float: center;
+  width: 100%; 
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.button1 {
-  background-color: rebeccapurple; 
-  color: white; 
-  border: 2px solid white;
-}
-
-.button1:hover {
-  background-color: white;
+.contact-headings h2 {
   color: white;
-  color: black;
 }
 
 
 tr {
   text-align: left;
   color: white;
+  border-radius: 12px;
 }
 
-h3 {
-  color: white;
-}
-.contact {
-  overflow: hidden;
-  background-color:rebeccapurple;
-  float: center;
-  width: 100%; 
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+td {
+  padding: 5px;
 }
 
-input[type=text], select, textarea {
- 
+input[type=text], select {
+  padding: 15px 55px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea[type=text] {
   padding: 15px 40px;
   margin-top: 5px;
   border: 1px solid #ccc;
-  border-radius: 0px;
+  border-radius: 4px;
   resize: vertical;
 }
 
 
+input[type=submit] {
+  width: 350%;
+  background-color:  #bc5090;
+  color: white; 
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 16px;
+  margin: 8px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: white;
+  color: black;
+  font-weight: bold;
 }
 
-button{
-  width: 100%;
-}
-
+/* end of contact */
