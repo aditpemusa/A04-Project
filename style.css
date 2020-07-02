@@ -1,31 +1,36 @@
 
 header {
-    overflow: hidden;
-    background-color:#f7f7f7;
-    position: fixed;
-    top: 0;
-    width: 100%; 
-    height:50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+  overflow: hidden;
+  background-color:#f7f7f7;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  height:50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.header-right {
+  padding: 10px 20px 5px 20px;
+}
 .header-right a{
-    float: right;
-    color: rebeccapurple;
-    padding: 15px 10px;
-    text-decoration: none;
-    display: block;
-  }
-  
+  float: right;
+  color: rebeccapurple;
+  padding: 5px 20px 5px 10px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
 .header-right a:hover {
-    border-bottom: 3px solid #239b76;
-    color:#239b76;
-    transition: all 0.5s;
-  }
+  border-bottom: 5px solid #239b76;
+  color:#239b76;
+  transition: all 0.5s;
+}
 
 
 .header-left{
-    float: left;
+  float: left;
+  padding: 10px 20px 5px 20px;
 }
 
 .logo {
@@ -35,68 +40,117 @@ header {
 }
 
 body {
-    margin: 0;
-    font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+  margin: 0;
+  font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 .top-wrapper {
-    padding: 100px 0 100px 0;
-    background-image: url(./banner.png);
-    background-size: cover;
-    color: rebeccapurple;
-    text-align: center;
-  }
-  
-  .top-wrapper a{
-    text-decoration: none;
-  }
+  padding: 100px 0 100px 0;
+  background-image: url(./banner.png);
+  background-size: cover;
+  color: rebeccapurple;
+  text-align: center;
+}
+
+.top-wrapper a{
+  text-decoration: none;
+}
 
 .container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 .container h1 {
-    font-size: 62px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 62px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: auto;
 }
 
 .btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.6;
-    margin: 20px 0;
-    border-radius: 12px;
-    background-color: #239b76;
-  }
+  padding: 18px 30px;
+  color: white;
+  display: inline-block;
+  opacity: 0.6;
+  margin: 50px 0 20px 0;
+  border-radius: 12px;
+  background-color: #239b76;
+}
 
 
-  .btn:hover {
-    opacity: 1;
-    background-color: rebeccapurple;
-    transition: all 0.5s;
-  }
+
+.btn:hover {
+  opacity: 1;
+  background: linear-gradient(to bottom left, #58508d 0%, #bc5090 100%);
+  transition: all 0.5s;
+}
+
+/* about */
+
+.about-wrapper {
+  padding: 100px 0 100px 0;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.right {
+  text-align: right;
+  padding-left: 50px;
+}
+
+.left {
+  text-align: left;
+  padding-right: 50px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.heading h2 {
+  font-weight: bold;
+}
+
+.column p {
+  width: 90%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+/* contact */
 
 
+
+/* footer */
 
 footer img {
-  width: 30%;
-  height: 30%;
-  margin: 5px 5px;
-  align: center;
+  width: 125px;
 }
 
 footer p {
-  color: rebeccapurple;
-  font-size: 10px;
+  color: gray;
+  font-size: 12px;
 }
 
 footer {
   padding-top: 30px;
 }
+
 
 .button {
   background-color: #4CAF50; /* Green */
@@ -159,3 +213,4 @@ input[type=submit]:hover {
 button{
   width: 100%;
 }
+
