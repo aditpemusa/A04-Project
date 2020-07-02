@@ -5,7 +5,9 @@ Proyek tim A04 Progate x CFDS untuk membuat single landing page halaman survey.
 - Header (Done)
 - Bagian Main (Done)
 - Bagian Main Tambahan
-- Footer 
+  -- About (Done)
+  -- Contact
+- Footer (Done)
 - 1 Animasi (Done)
 - Desain responsif smartphone dan tablet
 
